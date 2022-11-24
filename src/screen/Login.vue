@@ -15,6 +15,7 @@
         <div id="container_space_inputs_login" />
         <label>
             <span>Senha:</span>
+
             <input
                 type="password"
                 :class="classCSSInput"
@@ -25,6 +26,9 @@
         </label>
         <button id="login_btn" @click="login()">Confirmar</button>
         <a>Problemas no acesso?</a>
+        <span>
+            <vs-icon icon="polymer" color="#000000"></vs-icon>
+        </span>
     </div>
 </template>
 
